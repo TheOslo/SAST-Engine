@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" fill="none">
+  <defs>
+    <linearGradient id="wave-a" x1="118" x2="770" y1="65" y2="430" gradientUnits="userSpaceOnUse"><stop stop-color="#73D6AD" stop-opacity=".24"/><stop offset="1" stop-color="#315B77" stop-opacity=".08"/></linearGradient>
+    <linearGradient id="wave-b" x1="220" x2="741" y1="131" y2="420" gradientUnits="userSpaceOnUse"><stop stop-color="#73D6AD" stop-opacity=".22"/><stop offset="1" stop-color="#73D6AD" stop-opacity=".015"/></linearGradient>
+    <linearGradient id="wave-c" x1="320" x2="770" y1="205" y2="430" gradientUnits="userSpaceOnUse"><stop stop-color="#82B9EF" stop-opacity=".13"/><stop offset="1" stop-color="#73D6AD" stop-opacity=".04"/></linearGradient>
+  </defs>
+  <path fill="url(#wave-a)" d="M0 99c126-62 222-47 334-10 119 39 202 47 317 6 90-32 170-23 249 21v404H0V99Z"/>
+  <path fill="url(#wave-b)" d="M0 188c119-35 201-17 306 25 122 49 217 62 329 17 108-43 187-44 265-8v298H0V188Z"/>
+  <path fill="url(#wave-c)" d="M0 291c116-37 201-31 302 9 128 52 221 77 337 40 98-31 182-40 261-9v189H0V291Z"/>
+  <circle cx="691" cy="133" r="2" fill="#73D6AD" fill-opacity=".55"/><circle cx="742" cy="167" r="1.5" fill="#82B9EF" fill-opacity=".65"/><circle cx="650" cy="202" r="1.4" fill="#73D6AD" fill-opacity=".45"/>
+</svg>
