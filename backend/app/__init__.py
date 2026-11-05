@@ -14,11 +14,10 @@ def create_app(config: Mapping[str, Any] | None = None, repository: Any = None):
     from .database import MySQLRepository
     from .routes import api, health_api
 
-    frontend_dir = Path(__file__).resolve().parents[2] / "frontend-v2" / "dist"
-    frontend_assets = frontend_dir / "assets"
+    frontend_dir = Path(__file__).resolve().parents[2] / "frontend"
     app = Flask(
         __name__,
-        static_folder=str(frontend_assets),
+        static_folder=str(frontend_dir),
         static_url_path="/assets",
     )
     app.config.update(default_config())
